@@ -81,7 +81,7 @@
         "Industry 4.0",
         "QlikSense"
       ],
-      "impactScore": 92,
+      "impactScore": 4,
       "copy": {
         "title": {
           "en-US": "SAP PCo Telemetry",
@@ -136,7 +136,7 @@
         "Docker",
         "Raspberry Pi"
       ],
-      "impactScore": 88,
+      "impactScore": 3,
       "repoUrl": "https://github.com/AndreHeidemann/cv-line",
       "copy": {
         "title": {
@@ -197,7 +197,7 @@
         "APIs",
         "PL/SQL"
       ],
-      "impactScore": 85,
+      "impactScore": 5,
       "copy": {
         "title": {
           "en-US": "SASS Recruitment",
@@ -253,7 +253,7 @@
         "Oracle",
         "APIs"
       ],
-      "impactScore": 76,
+      "impactScore": 6,
       "copy": {
         "title": {
           "en-US": "GPT Resume Parser Prototype",
@@ -310,7 +310,7 @@
         "Tailwind",
         "libSQL"
       ],
-      "impactScore": 82,
+      "impactScore": 2,
       "repoUrl": "https://github.com/AndreHeidemann/bookPilot",
       "demoUrl": "https://book-pilot-cyan.vercel.app/login",
       "copy": {
@@ -360,6 +360,64 @@
             "Fluxo operador + convidado num único repo",
             "Depósitos Stripe confirmam mesmo sem webhook",
             "PII criptografado e log de auditoria"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "dashboard-plant-monitor",
+      "type": "personal",
+      "year": 2025,
+      "featured": true,
+      "tags": [
+        "Next.js",
+        "React",
+        "Tailwind",
+        "Recharts",
+        "TypeScript"
+      ],
+      "impactScore": 80,
+      "repoUrl": "https://github.com/AndreHeidemann/Dashboard-Vercel",
+      "demoUrl": "https://v0-telemetry-dashboard-design.vercel.app/",
+      "copy": {
+        "title": {
+          "en-US": "Dashboard Plant Monitor",
+          "pt-BR": "Dashboard Plant Monitor"
+        },
+        "oneLiner": {
+          "en-US": "Responsive plant operations cockpit with real-time telemetry and theme switching.",
+          "pt-BR": "Cockpit responsivo para monitorar plantas industriais com telemetria em tempo real e tema dinâmico."
+        },
+        "description": {
+          "en-US": "A modern dashboard built with Next.js 15, React 19, Tailwind, and Recharts to visualize industrial metrics with filters, charts, and dark/light modes.",
+          "pt-BR": "Dashboard moderno em Next.js 15, React 19, Tailwind e Recharts para visualizar métricas industriais com filtros, gráficos e modo claro/escuro."
+        },
+        "overview": {
+          "en-US": "Operators can explore live charts, filter by production areas, and review responsive layouts across devices.",
+          "pt-BR": "Operadores exploram gráficos ao vivo, filtram por áreas de produção e validam layouts responsivos."
+        },
+        "context": {},
+        "approach": {
+          "en-US": "Implemented Next.js App Router pages, Tailwind design tokens, Recharts components, and pnpm scripts, plus filters and theming.",
+          "pt-BR": "Implementei páginas no App Router do Next.js, tokens de design Tailwind, componentes Recharts e scripts pnpm, com filtros e temas."
+        },
+        "architecture": {
+          "en-US": "Next.js 15 + React 19 frontend → Tailwind styling → Recharts for visualization → telemetry generator under `lib/telemetriaGenerator.ts`.",
+          "pt-BR": "Frontend Next.js 15 + React 19 → estilização com Tailwind → visualizações em Recharts → gerador de telemetria em `lib/telemetriaGenerator.ts`."
+        },
+        "challenges": {},
+        "results": {
+          "en-US": "Reviewers can clone the repo, run `pnpm dev`, and explore a bilingual-ready dashboard highlighting Industry 4.0 UI patterns.",
+          "pt-BR": "Revisores podem clonar o repositório, rodar `pnpm dev` e explorar um dashboard pronto para bilingue destacando padrões de UI para Indústria 4.0."
+        },
+        "impactBullets": {
+          "en-US": [
+            "Live-style charts with filters per production area",
+            "Dark/light theme toggle baked into Tailwind"
+          ],
+          "pt-BR": [
+            "Gráficos estilo tempo real com filtros por área",
+            "Tema claro/escuro integrado ao Tailwind"
           ]
         }
       }
