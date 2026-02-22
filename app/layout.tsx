@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     title: 'André Nicolas Heidemann – Digital Transformation Analyst',
     description: 'Industrial automation and full stack solutions linking PLCs, SAP PCo, APIs, and edge AI.',
     siteName: 'André Nicolas Heidemann',
+    images: [
+      {
+        url: '/profile img.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Portrait of André Nicolas Heidemann',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
