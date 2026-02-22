@@ -71,7 +71,7 @@ export function Hero() {
         <div className="md:hidden">
           <div className="relative mx-auto size-48">
             <Image
-              src="/profile img.jpeg"
+              src="/profile-img.jpeg"
               alt="Portrait"
               fill
               sizes="12rem"
@@ -85,7 +85,7 @@ export function Hero() {
       <div className="hidden md:block shrink-0">
         <div className="relative w-[320px] h-[420px]">
           <Image
-            src="/profile img.jpeg"
+            src="/profile-img.jpeg"
             alt="Portrait"
             fill
             sizes="320px"

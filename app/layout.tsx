@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'André Nicolas Heidemann',
     images: [
       {
-        url: '/profile img.jpeg',
+        url: '/profile-img.jpeg',
         width: 1200,
         height: 630,
         alt: 'Portrait of André Nicolas Heidemann',
