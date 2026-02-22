@@ -3,6 +3,7 @@
 import { Mail, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useI18n } from "@/lib/i18n"
+import { profile } from "@/data/profile"
 
 export function CTASection() {
   const { t } = useI18n()
@@ -16,15 +17,19 @@ export function CTASection() {
         </p>
         <div className="flex flex-wrap items-center gap-2">
           <Button size="sm" asChild>
-            <a href="mailto:alex@example.com">
+            <a href={`mailto:${profile.basics.email}`}>
               <Mail className="size-3.5" />
               {t("cta.emailMe")}
             </a>
           </Button>
-          <Button variant="outline" size="sm">
-            <Calendar className="size-3.5" />
-            {t("cta.bookCall")}
-          </Button>
+          {profile.basics.meetingLink && (
+            <Button variant="outline" size="sm" asChild>
+              <a href={profile.basics.meetingLink} target="_blank" rel="noopener noreferrer">
+                <Calendar className="size-3.5" />
+                {t("cta.bookCall")}
+              </a>
+            </Button>
+          )}
         </div>
       </div>
     </section>

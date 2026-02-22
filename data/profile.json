@@ -1,0 +1,537 @@
+{
+  "basics": {
+    "translations": {
+      "en-US": {
+        "name": "André Nicolas Heidemann",
+        "headline": "Digital Transformation Analyst | Computer Engineer | Full Stack Developer",
+        "location": "Jaraguá do Sul, Santa Catarina, Brazil",
+        "bio": "Computer Engineer and Full Stack Developer currently working as a Digital Transformation Analyst in the food manufacturing industry. I bridge OT ↔ IT through PLC integrations, SAP PCo connectivity, APIs, and industrial automation. Focused on computer vision, real-time telemetry, and Industry 4.0 initiatives."
+      },
+      "pt-BR": {
+        "name": "André Nicolas Heidemann",
+        "headline": "Analista de Transformação Digital | Engenheiro da Computação | Dev Full Stack",
+        "location": "Jaraguá do Sul, Santa Catarina, Brasil",
+        "bio": "Engenheiro da Computação e Desenvolvedor Full Stack, atualmente atuando como Analista de Transformação Digital na indústria alimentícia. Conecto TO ↔ TI por meio de integrações de PLC, SAP PCo, APIs e automações industriais. Foco em visão computacional, telemetria em tempo real e iniciativas de Indústria 4.0."
+      }
+    },
+    "email": "dev.andreheidemann@gmail.com",
+    "phone": "+55 47 99215-4219",
+    "timezone": "GMT-3",
+    "summary": {
+      "en-US": "Digital Transformation Analyst bridging OT and IT with PLC integrations, SAP PCo connectivity, computer vision, and industrial automation projects.",
+      "pt-BR": "Analista de Transformação Digital conectando TO e TI com integrações de CLP, SAP PCo, visão computacional e automações industriais."
+    },
+    "availability": {
+      "en-US": "",
+      "pt-BR": ""
+    },
+    "languages": [
+      "Portuguese (Native)",
+      "English (C1)",
+      "Spanish (B1)",
+      "Danish (A1)"
+    ],
+    "yearsExperience": 5,
+    "domains": [
+      "Digital Transformation",
+      "Industrial Automation",
+      "Full Stack Development",
+      "Industry 4.0"
+    ],
+    "coreStack": [
+      "PHP",
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "MySQL",
+      "Oracle",
+      "PL/SQL",
+      "Docker"
+    ],
+    "socials": [
+      {
+        "platform": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/andreheidemann"
+      },
+      {
+        "platform": "github",
+        "label": "GitHub",
+        "url": "https://github.com/andreheidemann"
+      },
+      {
+        "platform": "email",
+        "label": "E-mail",
+        "url": "mailto:dev.andreheidemann@gmail.com"
+      }
+    ],
+    "lastUpdated": "February 22, 2026"
+  },
+  "projects": [
+    {
+      "slug": "sap-pco-telemetry",
+      "type": "work",
+      "year": 2025,
+      "featured": true,
+      "tags": [
+        "SAP PCo",
+        "PLC",
+        "Siemens S7-1200",
+        "Industry 4.0",
+        "QlikSense"
+      ],
+      "impactScore": 92,
+      "copy": {
+        "title": {
+          "en-US": "SAP PCo Telemetry",
+          "pt-BR": "Telemetria SAP PCo"
+        },
+        "oneLiner": {
+          "en-US": "Streaming PLC metrics through SAP PCo for real-time production visibility.",
+          "pt-BR": "Streaming de métricas dos CLPs via SAP PCo para visibilidade em tempo real da produção."
+        },
+        "description": {
+          "en-US": "Working on the telemetry layer connecting Siemens S7-1200 PLCs to SAP PCo so operations, maintenance and IT can access live machine data.",
+          "pt-BR": "Trabalhando na camada de telemetria que conecta CLPs Siemens S7-1200 ao SAP PCo, dando dados de máquina em tempo real para operações, manutenção e TI ."
+        },
+        "overview": {
+          "en-US": "Centralized PLC metrics and production counts in SAP PCo and exposed normalized payloads to downstream systems.",
+          "pt-BR": "Centralizei métricas e contagens de produção dos CLPs no SAP PCo e disponibilizei payloads normalizados aos sistemas consumidores."
+        },
+        "context": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "approach": {
+          "en-US": "Modeled PLC tags, mapped OPC UA events, and automated SAP PCo notifications feeding APIs consumed by dashboards and MES connectors.",
+          "pt-BR": "Modelei tags dos CLPs, mapeei eventos OPC UA e automatizei notificações no SAP PCo alimentando APIs utilizadas por dashboards e conectores MES."
+        },
+        "architecture": {
+          "en-US": "Siemens S7-1200 PLCs → SAP PCo OPC UA server → Telemetry.",
+          "pt-BR": "CLPs Siemens S7-1200 → servidor OPC UA do SAP PCo → Telemetria."
+        },
+        "challenges": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "results": {
+          "en-US": "Provided maintenance and operations with live dashboards through QlikSense.",
+          "pt-BR": "Disponibilizei dashboards em tempo real através do QlikSense."
+        },
+        "impactBullets": {
+          "en-US": [],
+          "pt-BR": []
+        }
+      }
+    },
+    {
+      "slug": "edge-vision-quality-control",
+      "type": "personal",
+      "year": 2025,
+      "featured": true,
+      "tags": [
+        "Computer Vision",
+        "YOLO",
+        "Docker",
+        "Raspberry Pi"
+      ],
+      "impactScore": 88,
+      "repoUrl": "https://github.com/AndreHeidemann/cv-line",
+      "copy": {
+        "title": {
+          "en-US": "Edge Vision Quality Control",
+          "pt-BR": "Visão Computacional para Controle de Qualidade"
+        },
+        "oneLiner": {
+          "en-US": "Ultralytics YOLO + Docker on Raspberry Pi to inspect packaging in real time.",
+          "pt-BR": "Ultralytics YOLO + Docker em Raspberry Pi para inspecionar embalagens em tempo real."
+        },
+        "description": {
+          "en-US": "Prototyped an edge AI camera that flags packaging defects before palletization using YOLO models deployed inside Docker containers.",
+          "pt-BR": "Prototipei uma câmera com IA em borda que sinaliza defeitos de embalagem antes da paletização usando modelos YOLO em contêineres Docker."
+        },
+        "overview": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "context": {
+          "en-US": "Addressed quality gaps where manual oversight failed to identify micro-defects during night shifts, resulting in costly inefficiencies and material waste.",
+          "pt-BR": "Correção de lacunas de qualidade onde a supervisão manual falhava na identificação de microdefeitos em turnos noturnos, resultando em ineficiências e desperdício de material."
+        },
+        "approach": {
+          "en-US": "Trained YOLO models on labeled batches and optimized packaging images.",
+          "pt-BR": "Treinei modelos YOLO com lotes rotulados e otimizei imagens de embalagem."
+        },
+        "architecture": {
+          "en-US": "Camera → Raspberry Pi running Docker → YOLO inference.",
+          "pt-BR": "Câmera → Raspberry Pi com Docker → inferência YOLO."
+        },
+        "challenges": {
+          "en-US": "Kept inference under 120ms despite limited GPU resources by tuning model sizes and leveraging TensorRT conversions.",
+          "pt-BR": "Mantive inferência abaixo de 120 ms mesmo sem GPU ajustando o tamanho dos modelos e usando conversões TensorRT."
+        },
+        "results": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "impactBullets": {
+          "en-US": [
+            "<120ms inference on Raspberry Pi"
+          ],
+          "pt-BR": [
+            "Inferência <120 ms no Raspberry Pi"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "recruitment-automation-suite",
+      "type": "work",
+      "year": 2023,
+      "featured": true,
+      "tags": [
+        "PHP",
+        "MySQL",
+        "Oracle",
+        "APIs",
+        "PL/SQL"
+      ],
+      "impactScore": 85,
+      "copy": {
+        "title": {
+          "en-US": "SASS Recruitment",
+          "pt-BR": "SASS de Recrutamento"
+        },
+        "oneLiner": {
+          "en-US": "Modernized RHBSaas with API automations and chatbots.",
+          "pt-BR": "Modernizei o RHBSaas com automações de API e chatbots."
+        },
+        "description": {
+          "en-US": "Full stack work on Dayone System's RHBSaas platform, automating candidate feeding flows and integrating RDStation, LinkedIn, Autentique, and Tallos APIs.",
+          "pt-BR": "Desenvolvimento full stack no RHBSaas, automatizando fluxos de candidatos e integrando APIs da RDStation, LinkedIn, Autentique e Tallos."
+        },
+        "overview": {
+          "en-US": "Delivered reusable PHP modules plus PL/SQL routines that synchronized marketing, CRM, and chatbot data in near real time.",
+          "pt-BR": "Entreguei módulos PHP reutilizáveis e rotinas PL/SQL que sincronizavam marketing, CRM e chatbots em quase tempo real."
+        },
+        "context": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "approach": {
+          "en-US": "Created API gateways, webhook listeners, background workers, and experimented with OpenAI GPT parsing for PDF/DOCX resumes.",
+          "pt-BR": "Criei gateways de API, listeners de webhook, workers em background e testei parsing de currículos PDF/DOCX com GPT da OpenAI."
+        },
+        "architecture": {
+          "en-US": "RHBSaas PHP monolith with service layer → MySQL/Oracle PL/SQL → integrations with RDStation, LinkedIn, Autentique, Tallos, and GPT endpoints.",
+          "pt-BR": "Monólito PHP do RHBSaas com camada de serviços → MySQL/Oracle PL/SQL → integrações com RDStation, LinkedIn, Autentique, Tallos e endpoints GPT."
+        },
+        "challenges": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "results": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "impactBullets": {
+          "en-US": [],
+          "pt-BR": []
+        }
+      }
+    },
+    {
+      "slug": "gpt-resume-parser",
+      "type": "work",
+      "year": 2023,
+      "featured": false,
+      "tags": [
+        "OpenAI",
+        "PHP",
+        "PL/SQL",
+        "Oracle",
+        "APIs"
+      ],
+      "impactScore": 76,
+      "copy": {
+        "title": {
+          "en-US": "GPT Resume Parser Prototype",
+          "pt-BR": "Protótipo de Parser de Currículos com GPT"
+        },
+        "oneLiner": {
+          "en-US": "Rapid experiment turning PDF/DOCX resumes into structured JSON via OpenAI GPT APIs.",
+          "pt-BR": "Experimento rápido convertendo currículos PDF/DOCX em JSON estruturado via APIs GPT."
+        },
+        "description": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "overview": {
+          "en-US": "Processed candidate uploads, normalized files with PHP, and generated structured payloads consumed by RHBSaas queues.",
+          "pt-BR": "Processava uploads de candidatos, normalizava arquivos em PHP e gerava payloads estruturados consumidos pelo RHBSaas."
+        },
+        "context": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "approach": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "architecture": {
+          "en-US": "Node.js upload hook → PHP parser → OpenAI API → JSON schema validation → Webhook back to RHBSaas.",
+          "pt-BR": "Hook de upload em Node.js → parser em PHP → API da OpenAI → validação JSON → webhook de volta ao RHBSaas."
+        },
+        "challenges": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "results": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "impactBullets": {
+          "en-US": [],
+          "pt-BR": []
+        }
+      }
+    },
+    {
+      "slug": "bookpilot",
+      "type": "personal",
+      "year": 2026,
+      "featured": true,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "Stripe",
+        "Google Calendar",
+        "Tailwind",
+        "libSQL"
+      ],
+      "impactScore": 82,
+      "repoUrl": "https://github.com/AndreHeidemann/bookPilot",
+      "demoUrl": "https://book-pilot-cyan.vercel.app/login",
+      "copy": {
+        "title": {
+          "en-US": "BookPilot Scheduling Cockpit",
+          "pt-BR": "BookPilot Cockpit de Agendamentos"
+        },
+        "oneLiner": {
+          "en-US": "Operator dashboard plus branded guest flow with Stripe deposits and Google Calendar sync.",
+          "pt-BR": "Dashboard operador + fluxo público com depósito Stripe e Google Calendar."
+        },
+        "description": {
+          "en-US": "Developed a Next.js platform enabling booking triage, availability management, and audit logging, featuring automated Stripe Checkout integration and Google Calendar synchronization.",
+          "pt-BR": "Desenvolvimento de uma plataforma em Next.js para triagem de reservas, gestão de disponibilidade e auditoria, com integração automatizada de pagamentos via Stripe e sincronização com Google Calendar."
+        },
+        "overview": {
+          "en-US": "Single repo showcasing auth, operator workspace, guest booking flow, Stripe Checkout, and Google Calendar integrations reviewers can run end to end.",
+          "pt-BR": "Repositório único exibindo auth, workspace do operador, fluxo convidado, Stripe Checkout e integrações Google Calendar ponta a ponta."
+        },
+        "context": {
+          "en-US": "",
+          "pt-BR": ""
+        },
+        "approach": {
+          "en-US": "Built with Next.js 16 App Router, Prisma 7 on SQLite/libSQL, iron-session auth, Stripe Checkout, Google Calendar webhooks, encrypted PII, and audit logging.",
+          "pt-BR": "Construído com Next.js 16 App Router, Prisma 7 em SQLite/libSQL, iron-session, Stripe Checkout, webhooks Google Calendar, PII criptografado e trilha de auditoria."
+        },
+        "architecture": {
+          "en-US": "Next.js `/app` workspace + public `/book/[teamSlug]` routes backed by Prisma (SQLite/libSQL), Stripe, and Google Calendar integrations.",
+          "pt-BR": "Workspace `/app` em Next.js + rotas públicas `/book/[teamSlug]` apoiadas por Prisma (SQLite/libSQL), Stripe e integrações Google Calendar."
+        },
+        "challenges": {
+          "en-US": "Implemented pending-payment expiry, idempotent booking mutations, encrypted PII, and webhook fallbacks so paid bookings never get stuck.",
+          "pt-BR": "Implementei expiração de pagamentos pendentes, mutações idempotentes, PII criptografado e fallback de webhook para que reservas pagas não travem."
+        },
+        "results": {
+          "en-US": "Reviewers can log in with demo credentials, confirm/cancel bookings, edit availability, and run the guest Stripe flow entirely from this repo.",
+          "pt-BR": "Revisores conseguem entrar com credenciais demo, confirmar/cancelar reservas, editar disponibilidade e rodar o fluxo público com Stripe diretamente do repositório."
+        },
+        "impactBullets": {
+          "en-US": [
+            "Operator + guest flow in one repo",
+            "Stripe deposits auto-confirm even without webhook",
+            "Encrypted PII and audit log"
+          ],
+          "pt-BR": [
+            "Fluxo operador + convidado num único repo",
+            "Depósitos Stripe confirmam mesmo sem webhook",
+            "PII criptografado e log de auditoria"
+          ]
+        }
+      }
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Duas Rodas",
+      "role": {
+        "en-US": "Digital Transformation Analyst",
+        "pt-BR": "Analista de Transformação Digital"
+      },
+      "location": {
+        "en-US": "Jaraguá do Sul, SC, Brazil (On-site)",
+        "pt-BR": "Jaraguá do Sul, SC, Brasil (Presencial)"
+      },
+      "remote": false,
+      "startDate": "Apr 2025",
+      "endDate": null,
+      "bullets": {
+        "en-US": [
+          "Leading automation and system integration initiatives across engineering, maintenance, and IT.",
+          "Integrated Siemens S7-1200 PLCs with SAP PCo to enable real-time machine data collection.",
+          "Prototyped an edge computer vision system (Ultralytics YOLO + Docker on Raspberry Pi) for quality control.",
+          "Applied numerical methods in Python to optimize industrial process calculations.",
+          "Supporting Industry 4.0 initiatives to increase operational visibility and production efficiency."
+        ],
+        "pt-BR": [
+          "Liderança em projetos de automação e integração de sistemas entre engenharia, manutenção e TI.",
+          "Integração de CLPs Siemens S7-1200 com SAP PCo para coleta em tempo real.",
+          "Prototipação de visão computacional em borda (Ultralytics YOLO + Docker em Raspberry Pi) para qualidade.",
+          "Aplicação de métodos numéricos em Python para otimizar cálculos de processos industriais.",
+          "Atuação em iniciativas de Indústria 4.0 para ampliar visibilidade operacional e eficiência produtiva."
+        ]
+      },
+      "tags": [
+        "SAP PCo",
+        "PLC",
+        "Siemens S7-1200",
+        "Industry 4.0"
+      ]
+    },
+    {
+      "company": "Dayone System – Grupo RHBrasil",
+      "role": {
+        "en-US": "Mid-level Full Stack Developer",
+        "pt-BR": "Desenvolvedor Full Stack Pleno"
+      },
+      "location": {
+        "en-US": "Joinville, SC, Brazil",
+        "pt-BR": "Joinville, SC, Brasil"
+      },
+      "remote": false,
+      "startDate": "Apr 2021",
+      "endDate": "Dec 2023",
+      "bullets": {
+        "en-US": [
+          "Built scalable RHBSaas web applications with focus on performance, usability, and maintainability.",
+          "Automated internal workflows and integrated APIs including RDStation, LinkedIn, Autentique, and Tallos.",
+          "Developed and optimized SQL queries, PL/SQL functions, and database structures (MySQL/Oracle).",
+          "Implemented chatbot flows and API integrations for real-time candidate data processing.",
+          "Tested OpenAI GPT API for automated resume parsing (PDF/DOCX)."
+        ],
+        "pt-BR": [
+          "Desenvolvimento de aplicações web escaláveis (RHBSaas) com foco em performance e usabilidade.",
+          "Automação de fluxos internos e integração de APIs como RDStation, LinkedIn, Autentique e Tallos.",
+          "Desenvolvimento e otimização de queries, funções e estruturas em MySQL e Oracle (PL/SQL).",
+          "Implementação de fluxos de chatbot e integrações para processamento em tempo real de dados de candidatos.",
+          "Teste da API OpenAI GPT para processamento automatizado de currículos (PDF/DOCX)."
+        ]
+      },
+      "tags": [
+        "PHP",
+        "MySQL",
+        "Oracle",
+        "PL/SQL",
+        "APIs",
+        "OpenAI"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "years": 5,
+      "level": "Advanced"
+    },
+    {
+      "name": "Python",
+      "years": 4,
+      "level": "Advanced"
+    },
+    {
+      "name": "TypeScript",
+      "years": 3,
+      "level": "Advanced"
+    },
+    {
+      "name": "Node.js",
+      "years": 3,
+      "level": "Advanced"
+    },
+    {
+      "name": "SAP PCo",
+      "years": 2,
+      "level": "Intermediate"
+    },
+    {
+      "name": "MySQL",
+      "years": 5,
+      "level": "Advanced"
+    },
+    {
+      "name": "Oracle PL/SQL",
+      "years": 5,
+      "level": "Advanced"
+    },
+    {
+      "name": "Docker",
+      "years": 3,
+      "level": "Intermediate"
+    }
+  ],
+  "additionalSkills": [
+    "jQuery",
+    "HTML",
+    "CSS",
+    "MySQL",
+    "Oracle (PL/SQL)",
+    "SAP PCo",
+    "OpenAI API",
+    "RDStation",
+    "LinkedIn API",
+    "Autentique",
+    "Tallos Chatbot",
+    "Scikit-learn",
+    "Numerical Methods (Python)",
+    "Siemens S7-1200",
+    "PLC Integration",
+    "Industry 4.0",
+    "Process Telemetry"
+  ],
+  "education": [
+    {
+      "institution": "Unisociesc",
+      "start": "2018",
+      "end": "2024",
+      "degree": {
+        "en-US": "B.Sc. in Computer Engineering",
+        "pt-BR": "Bacharelado em Engenharia da Computação"
+      }
+    },
+    {
+      "institution": "Univille",
+      "start": "2015",
+      "end": "2017",
+      "degree": {
+        "en-US": "Gastronomy (interrupted)",
+        "pt-BR": "Gastronomia (trancado)"
+      }
+    },
+    {
+      "institution": "Rotary International",
+      "start": "2013",
+      "end": "2014",
+      "degree": {
+        "en-US": "Rotary Sociocultural Exchange Program – Denmark",
+        "pt-BR": "Intercâmbio Sociocultural Rotary – Dinamarca"
+      }
+    }
+  ],
+  "certifications": [],
+  "awards": [],
+  "testimonials": []
+}

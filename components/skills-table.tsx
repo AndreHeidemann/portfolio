@@ -1,7 +1,7 @@
 "use client"
 
 import { useI18n } from "@/lib/i18n"
-import type { Skill } from "@/lib/data"
+import type { Skill } from "@/data/profile"
 
 interface SkillsTableProps {
   skills: Skill[]
