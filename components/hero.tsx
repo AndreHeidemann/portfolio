@@ -69,26 +69,30 @@ export function Hero() {
         </div>
 
         <div className="md:hidden">
-          <Image
-            src="/profile img.jpeg"
-            alt="Portrait"
-            width={360}
-            height={360}
-            className="mx-auto rounded-full border border-border object-cover"
-            priority
-          />
+          <div className="relative mx-auto size-48">
+            <Image
+              src="/profile img.jpeg"
+              alt="Portrait"
+              fill
+              sizes="12rem"
+              className="rounded-full border border-border object-cover"
+              priority
+            />
+          </div>
         </div>
       </div>
 
       <div className="hidden md:block shrink-0">
-        <Image
-          src="/profile img.jpeg"
-          alt="Portrait"
-          width={320}
-          height={420}
-          className="rounded-[32px] border border-border object-cover shadow-lg"
-          priority
-        />
+        <div className="relative w-[320px] h-[420px]">
+          <Image
+            src="/profile img.jpeg"
+            alt="Portrait"
+            fill
+            sizes="320px"
+            className="rounded-[32px] border border-border object-cover shadow-lg"
+            priority
+          />
+        </div>
       </div>
     </section>
   )
