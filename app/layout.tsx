@@ -32,6 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@andreheidemann',
     creator: '@andreheidemann',
+    images: [OG_IMAGE.url],
   },
   icons: {
     icon: [

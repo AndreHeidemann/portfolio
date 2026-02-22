@@ -7,11 +7,11 @@ export function absoluteUrl(path: string) {
   return `${SITE_URL.replace(/\/$/, '')}${path.startsWith('/') ? path : `/${path}`}`
 }
 
-export const OG_IMAGE_URL = absoluteUrl('/profile-img.jpeg')
+export const OG_IMAGE_URL = absoluteUrl('/api/og')
 
 export const OG_IMAGE = {
   url: OG_IMAGE_URL,
   width: 1200,
   height: 630,
-  alt: 'Portrait of André Nicolas Heidemann',
+  alt: 'André Nicolas Heidemann – Digital Transformation Analyst',
 } as const

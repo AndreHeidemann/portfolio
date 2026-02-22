@@ -3,15 +3,15 @@
     "translations": {
       "en-US": {
         "name": "André Nicolas Heidemann",
-        "headline": "Digital Transformation Analyst | Computer Engineer | Full Stack Developer",
+        "headline": "Digital Transformation Analyst",
         "location": "Jaraguá do Sul, Santa Catarina, Brazil",
-        "bio": "Computer Engineer and Full Stack Developer currently working as a Digital Transformation Analyst in the food manufacturing industry. I bridge OT ↔ IT through PLC integrations, SAP PCo connectivity, APIs, and industrial automation. Focused on computer vision, real-time telemetry, and Industry 4.0 initiatives."
+        "bio": "Computer engineer enabling OT↔IT handoffs with PLC telemetry, SAP PCo connectivity, and full-stack automation for food manufacturing plants."
       },
       "pt-BR": {
         "name": "André Nicolas Heidemann",
-        "headline": "Analista de Transformação Digital | Engenheiro da Computação | Dev Full Stack",
+        "headline": "Analista de Transformação Digital",
         "location": "Jaraguá do Sul, Santa Catarina, Brasil",
-        "bio": "Engenheiro da Computação e Desenvolvedor Full Stack, atualmente atuando como Analista de Transformação Digital na indústria alimentícia. Conecto TO ↔ TI por meio de integrações de PLC, SAP PCo, APIs e automações industriais. Foco em visão computacional, telemetria em tempo real e iniciativas de Indústria 4.0."
+        "bio": "Engenheiro da Computação que conecta TO↔TI com telemetria de CLPs, integrações SAP PCo e automações full stack para plantas alimentícias."
       }
     },
     "email": "dev.andreheidemann@gmail.com",
