@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { profile } from "@/data/profile"
-import { absoluteUrl, OG_IMAGE } from "@/lib/site"
+import { absoluteUrl, OG_IMAGE, SITE_NAME, getOgLocale } from "@/lib/site"
 import { DEFAULT_LOCALE, isSupportedLocale } from "@/lib/i18n-config"
 import { ProjectDetailClient } from "./project-detail-client"
 
@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const title = `${titleCopy} – Case Study`
   const description = descriptionCopy
   const url = `/${locale}/projects/${project.slug}`
+  const ogLocale = getOgLocale(locale)
   return {
     title,
     description,
@@ -26,6 +27,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description,
       url: absoluteUrl(url),
       type: "website",
+      siteName: SITE_NAME,
+      locale: ogLocale,
       images: [OG_IMAGE],
     },
   }

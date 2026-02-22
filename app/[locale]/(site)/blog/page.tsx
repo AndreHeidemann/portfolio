@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { absoluteUrl, OG_IMAGE } from "@/lib/site"
+import { absoluteUrl, OG_IMAGE, SITE_NAME, getOgLocale } from "@/lib/site"
 import { DEFAULT_LOCALE, isSupportedLocale } from "@/lib/i18n-config"
 import { BlogClient } from "./blog-client"
 
@@ -9,6 +9,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const title = `Writing & Blog – ${locale}`
   const description = "Thoughts on engineering leadership, architecture, and developer productivity."
   const url = `/${locale}/blog`
+  const ogLocale = getOgLocale(locale)
   return {
     title,
     description,
@@ -18,6 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description,
       url: absoluteUrl(url),
       type: "website",
+      siteName: SITE_NAME,
+      locale: ogLocale,
       images: [OG_IMAGE],
     },
   }

@@ -2,10 +2,10 @@ import { ImageResponse } from 'next/og'
 import type { NextRequest } from 'next/server'
 import { profile } from '@/data/profile'
 import { DEFAULT_LOCALE } from '@/lib/i18n-config'
-import { absoluteUrl } from '@/lib/site'
+import { absoluteUrl, getSiteTitle } from '@/lib/site'
 
 export const runtime = 'edge'
-export const alt = 'André Nicolas Heidemann – Digital Transformation Analyst'
+export const alt = getSiteTitle()
 export const contentType = 'image/png'
 export const size = {
   width: 1200,
