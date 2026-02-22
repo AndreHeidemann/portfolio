@@ -23,9 +23,12 @@ export function ResumeClient() {
   const fallback = DEFAULT_LOCALE
   const basicsCopy = profile.basics.translations[locale] ?? profile.basics.translations[fallback]
   const summary = profile.basics.summary[locale] ?? profile.basics.summary[fallback]
+  const resumeFile =
+    locale === "pt-BR" ? 'pt-BR - Andre Nicolas Heidemann.pdf' : 'en-US - Andre Nicolas Heidemann.pdf'
+  const resumePath = `/${encodeURIComponent(resumeFile)}`
 
   const handleDownload = () => {
-    router.push(`/${locale}/resume/print?print=1`)
+    window.open(resumePath, '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -39,12 +42,6 @@ export function ResumeClient() {
             <p className="text-sm text-muted-foreground">{basicsCopy.headline}</p>
           </div>
           <div className="flex items-center gap-2">
-            <Button variant="outline" size="sm" asChild>
-              <Link href={`/${locale}/resume/print`}>
-                <Printer className="size-3.5" />
-                {t("resume.print")}
-              </Link>
-            </Button>
             <Button size="sm" type="button" onClick={handleDownload}>
               <FileDown className="size-3.5" />
               {t("resume.downloadPdf")}

@@ -9,6 +9,9 @@ function matchLocale(pathname: string): Locale | undefined {
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+  if (/\.\w+$/.test(pathname)) {
+    return NextResponse.next()
+  }
   const localeInPath = matchLocale(pathname)
 
   if (!localeInPath) {
