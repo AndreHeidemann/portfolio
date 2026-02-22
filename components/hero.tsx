@@ -12,6 +12,9 @@ export function Hero() {
   const basicsCopy = basics.translations[locale] ?? basics.translations[DEFAULT_LOCALE]
   const github = basics.socials.find((link) => link.platform === "github")
   const linkedin = basics.socials.find((link) => link.platform === "linkedin")
+  const resumeFile =
+    locale === "pt-BR" ? 'pt-BR - Andre Nicolas Heidemann.pdf' : 'en-US - Andre Nicolas Heidemann.pdf'
+  const resumePath = `/${encodeURIComponent(resumeFile)}`
 
   return (
     <section className="flex flex-col gap-6">
@@ -55,9 +58,11 @@ export function Hero() {
             </a>
           </Button>
         )}
-        <Button variant="ghost" size="sm">
-          <FileDown className="size-3.5" />
-          {t("hero.downloadResume")}
+        <Button variant="ghost" size="sm" asChild>
+          <a href={resumePath} target="_blank" rel="noopener noreferrer">
+            <FileDown className="size-3.5" />
+            {t("hero.downloadResume")}
+          </a>
         </Button>
       </div>
     </section>
