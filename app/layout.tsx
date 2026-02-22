@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from '@/components/ui/sonner'
 import type { Locale } from '@/data/profile'
 import { DEFAULT_LOCALE, isSupportedLocale } from '@/lib/i18n-config'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, absoluteUrl } from '@/lib/site'
 import './globals.css'
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
@@ -15,20 +15,20 @@ const enableAnalytics = process.env.NEXT_PUBLIC_ENABLE_ANALYTICS === 'true'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'André Nicolas Heidemann – Digital Transformation Analyst',
-    template: '%s | André Nicolas Heidemann',
+    default: 'André Heidemann – Digital Transformation Analyst',
+    template: '%s | André Heidemann',
   },
-  description: 'Digital Transformation Analyst and Computer Engineer bridging OT ↔ IT with PLC integrations, SAP PCo, and full stack automation.',
+  description: 'Digital Transformation Analyst bridging OT and IT with PLC integrations, SAP PCo, and full stack automation.',
   generator: 'v0.app',
   openGraph: {
     type: 'website',
     url: SITE_URL,
-    title: 'André Nicolas Heidemann – Digital Transformation Analyst',
-    description: 'Industrial automation and full stack solutions linking PLCs, SAP PCo, APIs, and edge AI.',
+    title: 'André Heidemann – Digital Transformation Analyst',
+    description: 'Industrial automation solutions connecting PLCs, SAP PCo, APIs, and edge AI.',
     siteName: 'André Nicolas Heidemann',
     images: [
       {
-        url: '/profile-img.jpeg',
+        url: absoluteUrl('/profile-img.jpeg'),
         width: 1200,
         height: 630,
         alt: 'Portrait of André Nicolas Heidemann',
