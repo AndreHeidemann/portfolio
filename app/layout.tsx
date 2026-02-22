@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { Toaster } from '@/components/ui/sonner'
 import type { Locale } from '@/data/profile'
 import { DEFAULT_LOCALE, isSupportedLocale } from '@/lib/i18n-config'
-import { SITE_URL, absoluteUrl } from '@/lib/site'
+import { SITE_URL, OG_IMAGE } from '@/lib/site'
 import './globals.css'
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
@@ -26,14 +26,7 @@ export const metadata: Metadata = {
     title: 'André Heidemann – Digital Transformation Analyst',
     description: 'Industrial automation solutions connecting PLCs, SAP PCo, APIs, and edge AI.',
     siteName: 'André Nicolas Heidemann',
-    images: [
-      {
-        url: absoluteUrl('/profile-img.jpeg'),
-        width: 1200,
-        height: 630,
-        alt: 'Portrait of André Nicolas Heidemann',
-      },
-    ],
+    images: [OG_IMAGE],
   },
   twitter: {
     card: 'summary_large_image',

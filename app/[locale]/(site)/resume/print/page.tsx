@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import { profile } from "@/data/profile"
-import { absoluteUrl } from "@/lib/site"
+import { absoluteUrl, OG_IMAGE } from "@/lib/site"
 import { DEFAULT_LOCALE, isSupportedLocale } from "@/lib/i18n-config"
 import { PrintResumeClient } from "./print-client"
 
@@ -23,6 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       title,
       description,
       url: absoluteUrl(url),
+      type: "website",
+      images: [OG_IMAGE],
     },
   }
 }
