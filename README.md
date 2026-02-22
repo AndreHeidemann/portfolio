@@ -1,6 +1,6 @@
 # Portfolio UI
 
-A localized Next.js App Router project showcasing André Nicolas Heidemann's Industry 4.0 resume + portfolio. It uses TypeScript, TailwindCSS v4, and loads all content from a single data source.
+A localized Next.js App Router project showcasing André Nicolas Heidemann's Industry 4.0 resume + portfolio. It uses TypeScript, TailwindCSS v4, stores data in `data/profile.json`, and renders via `data/profile.ts` so reviewers can inspect a single source of truth.
 
 ## Run & Develop
 - Install deps: `npm install`
@@ -26,9 +26,9 @@ All resume, project, and CTA copy lives in [`data/profile.ts`](data/profile.ts).
 - The language toggle rewrites the current route while persisting `NEXT_LOCALE`.
 - Add new keys in both locale JSON files and use `useI18n().t(key)` in components.
 
-## Print/PDF Export
-- Click **Download PDF** on `/[locale]/resume` to open `/[locale]/resume/print?print=1`; the print view auto-calls the browser print dialog and hides navigation.
-- `/[locale]/resume/print` can also be accessed directly for manual printing.
+## Resume Download / Print
+- Click **Download PDF** on the hero or `/[locale]/resume` page to open the localized PDF stored in `public/` (`en-US - ...pdf` or `pt-BR - ...pdf`).
+- `/[locale]/resume/print?print=1` remains available if you want the printable HTML route.
 - Print-specific CSS lives in `app/globals.css` under `@media print`.
 
 ## Deploy to Vercel
